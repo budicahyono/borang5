@@ -1,0 +1,273 @@
+.middle{
+	vertical-align:middle !important;
+}	
+
+.form-horizontal.line .form-group {
+	border-top:2px dashed #ddd !important;
+	
+}
+
+.labels{
+	color : #fff;
+	padding:5px;
+	border-radius:5px;
+	
+}
+
+.bg-gray {
+  color: #000;
+  background-color: #d2d6de !important;
+}
+.bg-gray-light {
+  background-color: #f7f7f7;
+}
+.bg-black {
+  background-color: #111111 !important;
+}
+.bg-red,
+.callout.callout-danger,
+.alert-danger,
+.alert-error,
+.label-danger,
+.modal-danger .modal-body {
+  background-color: #dd4b39 !important;
+}
+.bg-yellow,
+.callout.callout-warning,
+.alert-warning,
+.label-warning,
+.modal-warning .modal-body {
+  background-color: #f39c12 !important;
+}
+.bg-unipa {
+  background-color: #ffc000 !important;
+  color: #664d00 !important;
+}
+.bg-aqua,
+.callout.callout-info,
+.alert-info,
+.label-info,
+.modal-info .modal-body {
+  background-color: #00c0ef !important;
+}
+.bg-blue {
+  background-color: #0073b7 !important;
+}
+.bg-light-blue,
+.label-primary,
+.modal-primary .modal-body {
+  background-color: #3c8dbc !important;
+}
+.bg-green,
+.callout.callout-success,
+.alert-success,
+.label-success,
+.modal-success .modal-body {
+  background-color: #00a65a !important;
+}
+.bg-navy {
+  background-color: #001f3f !important;
+}
+.bg-teal {
+  background-color: #39cccc !important;
+}
+.bg-olive {
+  background-color: #3d9970 !important;
+}
+.bg-lime {
+  background-color: #01ff70 !important;
+}
+.bg-orange {
+  background-color: #ff851b !important;
+}
+.bg-fuchsia {
+  background-color: #f012be !important;
+}
+.bg-purple {
+  background-color: #605ca8 !important;
+}
+.bg-maroon {
+  background-color: #d81b60 !important;
+}
+
+
+.tanda{
+	background:#ffe699;
+	color:#997400;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.box-footer{
+	margin:auto;
+	width:500px;
+}
+.nopad-right{
+	padding-right:0
+}
+.nopad-left{
+	padding-left:0
+}
+
+.fixed{
+	position:fixed;
+}
+
+
+
+/* Page Loader ================================= */
+.page-loader-wrapper {
+  z-index: 99999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  overflow: hidden;
+  text-align: center; }
+  
+  .page-loader-wrapper .loader {
+    position: relative;
+    top: calc(50% - 30px); }
+
+/* Preloaders ================================== */
+.md-preloader{
+ margin:10px;	
+
+}
+.md-preloader .pl-unipa {
+  stroke: #ffc000; 
+  }
+
+
+.md-preloader.pl-size-md {
+  width: 50px; }
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.file-upload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+.login-box{
+	background:#ffc000;
+	padding:10px;
+	border-radius:7px;	  
+}
+
+.unipa{
+	color:#81007f;
+	font-size:15px;	
+	font-weight:bold;
+}
+.profile{
+	width:51px;
+	display:block;
+	float:right;
+	position:relative;	
+	background:#ff4efc;
+
+	margin-left:10px;
+	margin-top:-15px;
+	margin-right:-10px;
+	
+}
+
+
+.btn-login{
+	background:#cc9a00;
+	color:#fff;
+
+}
+
+.btn-login:hover,.btn-login:focus{
+	background:#81007f;
+	color:#fff;
+}
+
+.navbar-login{
+	background:#fff;
+	border-top:7px solid #777;
+	border-bottom:1px solid #aaa;
+
+	color:#777;
+	font-weight:bold;
+}
+
+.soft, .soft:visited {
+-webkit-transition:background-color .5s ease,  color .5s ease, opacity .5s ease-in-out, outline .5s ease;
+-moz-transition:background-color .5s ease, color .5s ease, opacity .5s ease-in-out, outline .5s ease;
+-ms-transition:background-color .5s ease,  color .5s ease, opacity .5s ease-in-out, outline .5s ease;
+-o-transition:background-color .5s ease,  color .5s ease, opacity .5s ease-in-out, outline .5s ease;
+transition:background-color .5s ease,  color .5s ease, opacity .5s ease-in-out, outline .5s ease;}
+.soft:hover {text-decoration:none;}  
+
+.actives a{
+	background:#81007f !important;
+	color:#fff !important;
+
+}
+
+.panjang{
+	min-height:513px;
+
+}
+
+
+
+.img{
+
+	width:250px;
+
+}
+
+.nav-third-level{
+	background:#fff;
+
+}
+
+
+
+@media (max-width: 768px) {
+  .form {
+   margin-bottom: 12px;
+  }
+  
+  .footer{
+	margin-left:0px;
+}
+}
+
+thead{
+background-color :#ffc000;
+ border-top: 7px solid #cc9a00;
+color :#997400;
+}
+
+
+.daftar{
+border-bottom: 2px solid #ffc000;
+}
+
